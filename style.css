@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+
+.nft-card{
+    top: 50%;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 365px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.equi-img{
+    border-radius: 6px;
+
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    margin: auto;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width:350px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .overlay {
+  
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 6px;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .view {
+    color: white;
+    font-size: 16px;
+    margin-top: 50%;
+    text-align: center;
+    
+  }
+
+
+    
+.avatar{
+    width: 30px;
+    border: 1px white solid;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white
+    }
+
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+
+}
