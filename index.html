@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="nft-card">
+        <div class="container">
+          <img
+            class="equi-img image"
+            src="./images/image-equilibrium.jpg"
+            alt="image-equilibrium"
+          />
+          <div class="overlay">
+            <div class="view">
+              <img src="./images/icon-view.svg" alt="icon-view" />
+            </div>
+          </div>
+        </div>
 
-</head>
-<body>
+        <div style="width: 300px; margin: auto">
+          <p style="font-weight: 600"><a href="#"> Equilibrium #3429 </a></p>
+          <p>Our Equilibrium collection promotes balance and calm</p>
+          <span
+            style="
+              color: hsl(178, 100%, 50%);
+              font-weight: 100;
+              margin-right: 28%;
+            "
+            ><img src="./images/icon-ethereum.svg" alt="icon-ethereum" /> 0.041
+            ETH</span
+          >
+          <span class="time" style="font-weight: 100"
+            ><img src="./images/icon-clock.svg" alt="icon-clock" /> 3 days
+            left</span
+          >
 
-  <div class="nft-card">
-    <div class="container">
-      <img class="equi-img image" src="./images/image-equilibrium.jpg"/>
-      <div class="overlay">
-        <div class="view"><img src="./images/icon-view.svg" alt=""></div>
+          <hr />
+
+          <div>
+            <img
+              class="avatar"
+              src="./images/image-avatar.png"
+              alt="image-avatar"
+              style="float: left; margin-right: 10px"
+            />
+            <p>
+              Creation of <a href="#" style="font-weight: 300">Jules Wyvern</a>
+            </p>
+          </div>
+        </div>
       </div>
 
-      
-    </div>
-  
-     <div style="width: 300px; margin: auto;">
-      <p style="font-weight: 600;"><a href="#"> Equilibrium #3429 </a></p>
-      <p> Our Equilibrium collection promotes balance and calm</p>
-      <span style="color: hsl(178, 100%, 50%); font-weight: 100; margin-right: 28%;"><img src="./images/icon-ethereum.svg" alt=""> 0.041 ETH</span> 
-      <span class="time" style="font-weight: 100;"><img src="./images/icon-clock.svg"> 3 days left</span> 
-     
-     <hr >
-     
-     <div>
-       <img class="avatar" src="./images/image-avatar.png" alt="" style="float: left; margin-right: 10px;">
-       <p>Creation of <a href="#" style="font-weight: 300;">Jules Wyvern</a></p>
-     </div>
-     
-     </div> 
-    
-    </div>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Eva's Hub</a>.
-  </div>
-</body>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Eva's Hub</a>.
+      </div>
+    </main>
+  </body>
 </html>

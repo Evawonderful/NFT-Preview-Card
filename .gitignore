@@ -14,3 +14,10 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+package-lock.json
+node_modules/.package-lock.json
+node_modules/.bin/prettier
+node_modules/.bin
+node_modules/prettier
+package.json
